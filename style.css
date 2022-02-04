@@ -24,20 +24,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: 2px;
 }
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #5777ba;
-  text-decoration: none;
-}
 #header .logo img {
   margin: 0px;
   max-height: 40px;
 }
 .fixed-top .container{
-  display: inline-flex;
+  display: flex;
 }
 .navbar {
   height: 50px;
-  padding: 0;
+  padding: 0px;
 }
 .navbar ul {
   margin-left:300px;
@@ -54,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0px 0px 30px;
+  padding: 1px 0px 0px 40px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #47536e;
@@ -149,3 +145,4 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 25px;
   margin-left: 25px;
 }
+
